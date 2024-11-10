@@ -1,1 +1,1 @@
-✨ React App
+✨ dashboard ui setup
