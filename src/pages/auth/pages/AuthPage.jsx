@@ -1,6 +1,6 @@
 import React from "react";
 import { useDispatch } from "react-redux";
-import { register } from "../../../store/redux/authSlice";
+import { register } from "../../../store/authSlice";
 import { useNavigate } from "react-router-dom";
 import RenderForm from "../../../components/form/RenderForm";
 import { auth_Validation } from "../../../utils/validation";

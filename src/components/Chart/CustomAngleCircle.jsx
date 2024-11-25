@@ -12,7 +12,7 @@ const CustomAngleCircle = ({ title, xaxis, yaxis, className }) => {
           endAngle: 270,
           hollow: {
             margin: 5,
-            size: "30%",
+            size: "50%",
             background: "transparent",
             image: undefined,
           },

@@ -1,10 +1,10 @@
 import React from "react";
 import { Navbar, Button, Image } from "react-bootstrap";
 import { useDispatch } from "react-redux";
-import { logout } from "../store/redux/authSlice";
+import { logout } from "../store/authSlice";
 import { HiOutlineMenuAlt2 } from "react-icons/hi";
 import { RxCross2 } from "react-icons/rx";
-import { useUserDetails } from "../store/redux/selectorHook";
+import { useUserDetails } from "../store/selectorHook";
 
 function TopNavbar({ show, setShow }) {
   const dispatch = useDispatch();
@@ -38,10 +38,10 @@ function TopNavbar({ show, setShow }) {
             height={40}
             className="p-1 bg-white"
           />
-          <span>{username}</span>
+          <span>{username ?? "unknown"}</span>
         </div>
 
-        <Button variant="danger" onClick={handleLogout}>
+        <Button variant="danger" className="btn-sm" onClick={handleLogout}>
           Logout
         </Button>
       </div>
