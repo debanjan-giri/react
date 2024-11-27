@@ -16,6 +16,21 @@ function EmployeePage() {
       Mobile: 121212121212,
       Percentage: 12,
     },
+    {
+      Name: "Devposto",
+      Mobile: 1234567890,
+      Percentage: 90,
+    },
+    {
+      Name: "Postman",
+      Mobile: 121212121212,
+      Percentage: 12,
+    },
+    {
+      Name: "Postman",
+      Mobile: 121212121212,
+      Percentage: 12,
+    },
   ]);
   const [CircleData, setCircleData] = useState({
     yaxis: [90, 12],

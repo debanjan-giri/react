@@ -83,7 +83,7 @@ const Sidebar = React.memo(({ show }) => {
         onClick={() => handleNavigation("dashboard")}
       >
         {show && <LuSquareStack size={20} />}
-        <span className="fw-bold text-dark">Billing</span>
+        <span className="fw-bold text-dark">Demo</span>
       </p>
       <div className="d-flex flex-column justify-content-between flex-grow-1">
         <Nav as="ul" className="flex-column w-100">

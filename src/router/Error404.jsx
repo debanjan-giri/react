@@ -1,5 +1,5 @@
-import React from 'react'
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
 const Error404 = () => {
   return (
@@ -14,6 +14,6 @@ const Error404 = () => {
       </Link>
     </div>
   );
-}
+};
 
-export default Error404
+export default Error404;

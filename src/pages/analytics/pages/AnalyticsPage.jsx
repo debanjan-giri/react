@@ -1,8 +1,9 @@
 import React from 'react'
+import PageNotFound from '../../../router/PageNotFound'
 
 const AnalyticsPage = () => {
   return (
-    <div>AnalyticsPage</div>
+    <PageNotFound/>
   )
 }
 
